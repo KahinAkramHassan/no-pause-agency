@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  font-family:  'Nunito' ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*change background color here*/
+  background-color: #070707;
+  /* https://coolors.co/efefef-3454d1-34d1bf-070707-d1345b */
+
+}
+
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #EFEFEF !important;
+}
+.nav-link:hover{
+  color: #ffd700 !important;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/**
+ * These styles are used for DEMO purpose only.
+ */
+ *,
+ :after,
+ :before {
+   box-sizing: border-box;
+ }
+
+ .section {
+   height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+.background-img {
+  min-height: 100vh;
+  position: relative;
+}
+
+.background-img .content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.content span.img-txt {
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+
+
+h3 {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 1.3rem;
+  text-align: center;
+}
+
+.text-box {
+  text-align: center;
+  padding: 3rem 1rem;
+  text-align: center;
+  height: 300px;
+}
